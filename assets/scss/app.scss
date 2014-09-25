@@ -6,22 +6,43 @@
 
 $topbar-height: 70px;
 $body-font-family: "Questrial", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$h2-font-reduction: rem-calc(15);
+$h2-font-reduction: rem-calc(22);
 
 // You can import only specific elements by adjusting the import below
 @import "foundation";
 
 // Import fonts
 @import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Exo:300);
 
 // Colours
-$white: #fff;
-$blue: #373E4D;
-$light-blue: #44686E;
+$white: #ddd; 
+$blue: #81CECF;
+$dark-blue: #487174;
 $orange: #998445;
+$black: #1C2F31;
 
+.black {
+  background: $black;
+  color:$white;
+}
 
-.row.full-width {
+.dark-blue {
+  background: $dark-blue;
+  color:$white;
+}
+
+.dark-blue h3 {
+  font-family: 'Exo', sans-serif;
+  color:$white;
+}
+
+.row-margins {
+  padding-top:75px;
+  padding-bottom:75px;
+}
+
+.full-width {
   min-width:100% !important;
 }
 .hero {
@@ -38,15 +59,19 @@ $orange: #998445;
 .hero .caption-inner {
   display:table;
   width:100%;
-  height:50%;
+  height:80%;
 }
 .hero .caption-content {
   font-size:40px;
-  color:#fff;
   display:table-cell;
   text-align: center;
-  vertical-align:middle;
+  vertical-align:bottom;
   font-variant:small-caps;
+  padding:0 50px 0 50px;
+}
+h2 {
+  font-family: 'Exo', sans-serif;
+  color: $white;
 }
 .sfc-logo {
   width:150px;

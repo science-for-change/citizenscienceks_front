@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Exo:300);
 meta.foundation-version {
   font-family: "../../5.2.3"; }
 
@@ -3542,7 +3543,7 @@ h1 {
   font-size: 2.125rem; }
 
 h2 {
-  font-size: 1.375rem; }
+  font-size: 0.9375rem; }
 
 h3 {
   font-size: 1.375rem; }
@@ -4894,7 +4895,23 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
-.row.full-width {
+.black {
+  background: #1C2F31;
+  color: #ddd; }
+
+.dark-blue {
+  background: #487174;
+  color: #ddd; }
+
+.dark-blue h3 {
+  font-family: 'Exo', sans-serif;
+  color: #ddd; }
+
+.row-margins {
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.full-width {
   min-width: 100% !important; }
 
 .hero {
@@ -4911,15 +4928,19 @@ th.hide-for-touch {
 .hero .caption-inner {
   display: table;
   width: 100%;
-  height: 50%; }
+  height: 80%; }
 
 .hero .caption-content {
   font-size: 40px;
-  color: #fff;
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-  font-variant: small-caps; }
+  vertical-align: bottom;
+  font-variant: small-caps;
+  padding: 0 50px 0 50px; }
+
+h2 {
+  font-family: 'Exo', sans-serif;
+  color: #ddd; }
 
 .sfc-logo {
   width: 150px; }
