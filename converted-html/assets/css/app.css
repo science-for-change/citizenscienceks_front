@@ -4942,6 +4942,10 @@ h2 {
   font-family: 'Exo', sans-serif;
   color: #ddd; }
 
+.small-print {
+  font-size: 12px;
+  font-variant: normal; }
+
 .sfc-logo {
   width: 150px; }
 
